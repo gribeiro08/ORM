@@ -1,0 +1,44 @@
+/my-app
+  ├─ /models
+  │   ├─ index.js
+  │   ├─ acesso.js
+  │   ├─ advertencia.js
+  │   ├─ areaComum.js
+  │   ├─ avisosGerais.js
+  │   ├─ avisosGeraisProxy.js
+  │   ├─ documento.js
+  │   ├─ financa.js
+  │   ├─ index.js
+  │   ├─ manutencao.js
+  │   ├─ morador.js
+  │   ├─ multa.js
+  │   ├─ multaAplicada.js
+  │   ├─ ocorrencia.js
+  │   ├─ porteiro.js
+  │   ├─ reserva.js
+  │   ├─ reuniao.js
+  │   ├─ sindico.js
+  │   ├─ visitante.js
+  │   ├─ votacao.js
+  │   └─ voto.js
+  ├─ /config
+  │   └─ database.js
+  ├─ /controllers
+  │   ├─ acessoController.js
+  │   ├─ financaController.js
+  │   ├─ manutencaoController.js
+  │   ├─ moradorController.js
+  │   ├─ multaController.js
+  │   ├─ porteiroController.js
+  │   ├─ reuniaoController.js
+  │   ├─ sindicoController.js
+  │   └─ visitanteController.js
+  ├─ /routes
+  │   └─ index.js
+  └─ app.js
+
+
+
+
+editar o .env
+pois ainda nao definimos qual banco !!!!
