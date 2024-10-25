@@ -2,15 +2,15 @@ const express = require('express');
 const router = express.Router();
 
 // Importando os controladores
-const AcessoController = require('./controllers/acessoController');
-const FinancaController = require('./controllers/financaController');
-const ManutencaoController = require('./controllers/manutencaoController');
-const MoradorController = require('./controllers/moradorController');
-const MultaController = require('./controllers/multaController');
-const PorteiroController = require('./controllers/porteiroController');
-const ReuniaoController = require('./controllers/reuniaoController');
-const SindicoController = require('./controllers/sindicoController');
-const VisitanteController = require('./controllers/visitanteController');
+const AcessoController = require('../controller/acessoController');
+const FinancaController = require('../controller/financaController');
+const ManutencaoController = require('../controller/manutencaoController');
+const MoradorController = require('../controller/moradorController');
+const MultaController = require('../controller/multaController');
+const PorteiroController = require('../controller/porteiroController');
+const ReuniaoController = require('../controller/reuniaoController');
+const SindicoController = require('../controller/sindicoController');
+const VisitanteController = require('../controller/visitanteController');
 
 // Rotas para Acesso
 router.post('/acesso', AcessoController.createAcesso);
